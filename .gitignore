@@ -1,0 +1,52 @@
+# Node (all workspaces)
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/.pnpm-debug.log*
+
+# Builds & caches
+**/dist/
+**/.vite/
+**/.cache/
+**/.turbo/
+**/.eslintcache
+**/.parcel-cache
+
+# Env & local config
+*.env
+*.env.*
+!.env.example
+!.env.*.example
+**/.npmrc
+
+# PM2 logs / runtime
+pids
+pids/*
+logs
+logs/*
+*.pid
+*.seed
+*.pid.lock
+*.log
+
+# Coverage / test outputs
+**/coverage/
+**/.nyc_output/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.iml
+
+# Prisma (keep migrations! only ignore sqlite dbs if you ever add them)
+**/prisma/dev.db
+**/prisma/dev.db-journal
+
+# Docker (ignore local override files, not Dockerfiles)
+docker-compose.override.yml
